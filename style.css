@@ -172,20 +172,18 @@ nav.main-nav a:hover {
   min-width: 180px;
   box-shadow: 0 2px 12px #bfa14a22;
 }
-.gallery-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
-  margin-top: 2rem;
+.gallery-grid img {
+  width: 260px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 1.2rem;
+  border: 2px solid #bfa14a;
+  box-shadow: 0 2px 12px #bfa14a22;
 }
 .gallery-grid img {
   width: 260px;
   height: 180px;
   object-fit: contain;
-  border-radius: 1.2rem;
-  border: 2px solid #bfa14a;
-  box-shadow: 0 2px 12px #bfa14a22;
 }
 .contact-details {
   margin-bottom: 2rem;
