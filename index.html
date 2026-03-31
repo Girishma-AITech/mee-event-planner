@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mee Event Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/images/mee-event-planner-logo.png">
+</head>
+<body>
+    <header class="main-header">
+        <div class="branding">
+            <img src="assets/images/mee-event-planner-logo.png" alt="Mee Event Planner Logo" class="logo">
+            <h1>Mee Event Planner</h1>
+            <p class="tagline">Creating Unforgettable Celebrations</p>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h2>Elegant Events Within Your Budget</h2>
+            <p>We design beautiful, memorable celebrations that fit your style and your budget—no compromises, just joy.</p>
+            <a href="#contact" class="cta-btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Mee Event Planner</h2>
+        <p>At Mee Event Planner, we don’t just plan events — we create memories that last a lifetime. Every celebration is unique and meaningful, and we believe it should be beautifully organized without going beyond your budget.</p>
+        <p>As your trusted partner, we combine creativity, careful planning, and smart budgeting to deliver stunning and stress-free events. Our goal is simple — to turn your ideas into unforgettable experiences while keeping everything affordable, elegant, and perfectly managed.</p>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <ul class="services-list">
+            <li>Decorations</li>
+            <li>Catering</li>
+            <li>Photography</li>
+            <li>Venue</li>
+            <li>Makeup</li>
+            <li>Mehandi Artist</li>
+        </ul>
+    </section>
+
+    <section id="events" class="events-section">
+        <h2>Events</h2>
+        <div class="events-grid">
+            <div class="event-card">
+                <img src="assets/images/wedding-decoration.png" alt="Weddings" class="event-icon">
+                <h3>Weddings</h3>
+                <p>Elegant and memorable wedding planning for your special day.</p>
+            </div>
+            <div class="event-card">
+                <img src="assets/images/birthday-event.png" alt="Birthday Events" class="event-icon">
+                <h3>Birthday Events</h3>
+                <p>Fun and creative birthday celebrations for all ages.</p>
+            </div>
+            <div class="event-card">
+                <img src="assets/images/anniversary-event.png" alt="Anniversaries" class="event-icon">
+                <h3>Anniversaries</h3>
+                <p>Celebrate milestones with style and grace.</p>
+            </div>
+            <div class="event-card">
+                <img src="assets/images/office-event.png" alt="Office Events" class="event-icon">
+                <h3>Office Events</h3>
+                <p>Professional planning for corporate and office gatherings.</p>
+            </div>
+            <div class="event-card">
+                <img src="assets/images/small-occassion-event.png" alt="Small Occasion Events" class="event-icon">
+                <h3>Small Occasion Events</h3>
+                <p>Intimate and personalized events for any small occasion.</p>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery-section">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="assets/images/mee-event-planner-logo.png" alt="Mee Event Planner Logo">
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-details">
+            <p><strong>Office Address:</strong> 16/4A-2- 183/6, Thopu, Bala Krishna Reddy Layout Phase 2, Dhanalakshmi Puram,<br>Nellore, Andhra Pradesh 524002</p>
+            <p><strong>Call Us:</strong> <a href="tel:+917780226810">+91 7780226810</a></p>
+            <p><strong>Email:</strong> <a href="mailto:mee.event.planner@gmail.com">mee.event.planner@gmail.com</a></p>
+        </div>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Your Name *</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Your Phone (WhatsApp Number) *</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your WhatsApp Number" required>
+            </div>
+            <div class="form-group budget-group">
+                <label>Budget *</label>
+                <div class="budget-fields">
+                    <input type="text" id="min-budget" name="min_budget" placeholder="Min Budget" required>
+                    <input type="text" id="max-budget" name="max_budget" placeholder="Max Budget" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="event-type">Event *</label>
+                <select id="event-type" name="event_type" required>
+                    <option value="">Select Event</option>
+                    <option value="Birthday">Birthday</option>
+                    <option value="Office">Office</option>
+                    <option value="Marriage">Marriage</option>
+                </select>
+            </div>
+            <div class="form-group marriage-options" style="display:none;">
+                <label>Marriage Options</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="marriage_options" value="Engagement"> Engagement</label>
+                    <label><input type="checkbox" name="marriage_options" value="Gandapu Nalugu"> Gandapu Nalugu (Andhra Hindu Tradition)</label>
+                    <label><input type="checkbox" name="marriage_options" value="Haldi"> Haldi</label>
+                    <label><input type="checkbox" name="marriage_options" value="Mehandi"> Mehandi</label>
+                    <label><input type="checkbox" name="marriage_options" value="Makeup"> Makeup</label>
+                    <label><input type="checkbox" name="marriage_options" value="Marriage"> Marriage</label>
+                    <label><input type="checkbox" name="marriage_options" value="Reception"> Reception</label>
+                    <label><input type="checkbox" name="marriage_options" value="Vratam"> Vratam</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="photography">Photography</label>
+                <select id="photography" name="photography">
+                    <option value="">Select Option</option>
+                    <option value="Photo & Video (No Album)">Photo & Video (No Album)</option>
+                    <option value="Photo & Video (With Album)">Photo & Video (With Album)</option>
+                    <option value="Top-End (Premium)">Top-End (Premium)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Decoration</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="decoration" value="Yes"> Yes</label>
+                    <label><input type="checkbox" name="decoration" value="No"> No</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Catering</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="catering" value="Yes"> Yes</label>
+                    <label><input type="checkbox" name="catering" value="No"> No</label>
+                </div>
+            </div>
+            <div class="form-group catering-details" style="display:none;">
+                <label>Food Type</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="food_type" value="Non-Veg"> Non-Veg</label>
+                    <label><input type="checkbox" name="food_type" value="Veg"> Veg</label>
+                    <label><input type="checkbox" name="food_type" value="Both"> Both</label>
+                </div>
+                <input type="text" name="guests" placeholder="No. of Guests Expected">
+                <input type="text" name="items_per_plate" placeholder="Expected No. of Items per Plate">
+            </div>
+            <div class="form-group">
+                <label for="email">Email (optional)</label>
+                <input type="email" id="email" name="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label>Mehandi Artist (optional)</label>
+                <input type="checkbox" name="mehandi_artist" value="Yes">
+            </div>
+            <div class="form-group">
+                <label>Makeup (optional)</label>
+                <input type="checkbox" name="makeup" value="Yes">
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-branding">
+            <img src="assets/images/mee-event-planner-logo.png" alt="Mee Event Planner Logo" class="footer-logo">
+            <p>&copy; 2026 Mee Event Planner. All Rights Reserved.</p>
+        </div>
+        <div class="footer-links">
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#services">Services</a> |
+            <a href="#gallery">Gallery</a> |
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
